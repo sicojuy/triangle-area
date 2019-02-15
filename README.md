@@ -4,7 +4,9 @@
 
 ## 海伦公式
 
-![](https://github.com/sicojuy/triangle-area/blob/master/images/heron-formula1.svg)，其中![](https://github.com/sicojuy/triangle-area/blob/master/images/heron-formula2.svg)
+![](https://github.com/sicojuy/triangle-area/blob/master/images/heron-formula1.svg)
+
+![](https://github.com/sicojuy/triangle-area/blob/master/images/heron-formula2.svg)
 
 ## 程序截图
-![](https://github.com/sicojuy/triangle-area/blob/master/images/screen.png)
+![](https://github.com/sicojuy/triangle-area/blob/master/images/screen.png | width=320)
