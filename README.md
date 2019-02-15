@@ -9,4 +9,4 @@
 ![](https://github.com/sicojuy/triangle-area/blob/master/images/heron-formula2.svg)
 
 ## 程序截图
-![](https://github.com/sicojuy/triangle-area/blob/master/images/screen.png | width=320)
+<img src="https://github.com/sicojuy/triangle-area/blob/master/images/screen.png" width="40%">
