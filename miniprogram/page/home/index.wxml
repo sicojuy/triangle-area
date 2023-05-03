@@ -1,0 +1,53 @@
+<view class="page" data-weui-theme="{{theme}}">
+  <view class="index">
+    <view class="index-hd">
+      <view class="page-section" style="min-height: 64px;">
+        <view class="page-section-spacing">
+          <block wx:if="{{message != ''}}">
+            <text>{{message}}</text>
+          </block>
+          <block wx:else>
+            <text class="result">{{result}}</text>
+          </block>
+        </view>
+      </view>
+    </view>
+    <view class="index-bd">
+      <form bindsubmit="calculate">
+        <view class="page-section">
+          <view class="weui-cells__title">请输入任意三角形的边长</view>
+          <view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell weui-cell_input">
+              <view class="weui-cell__hd">
+                <view class="weui-label">边长一</view>
+              </view>
+              <view class="weui-cell__bd">
+                <input name="side1" class="weui-input" type="digit" placeholder="请输入边长" />
+              </view>
+            </view>
+            <view class="weui-cell weui-cell_input">
+              <view class="weui-cell__hd">
+                <view class="weui-label">边长二</view>
+              </view>
+              <view class="weui-cell__bd">
+                <input name="side2" class="weui-input" type="digit" placeholder="请输入边长" />
+              </view>
+            </view>
+            <view class="weui-cell weui-cell_input">
+              <view class="weui-cell__hd">
+                <view class="weui-label">边长三</view>
+              </view>
+              <view class="weui-cell__bd">
+                <input name="side3" class="weui-input" type="digit" placeholder="请输入边长" />
+              </view>
+            </view>
+            <view slot="button">
+              <button class="weui-btn" type="primary" form-type='submit'>计算</button>
+            </view>
+          </view> 
+        </view>
+      </form>
+    </view>
+  </view>
+  <ad unit-id="adunit-62aa0a5e6b3b508e"></ad>
+</view>
